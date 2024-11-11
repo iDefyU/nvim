@@ -15,12 +15,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", opts)
 
 vim.keymap.set("v", "p", '"_dp', opts)
 
--- Bufferline Tab
-vim.keymap.set("n", "<Tab>", ":bnext<CR>", opts)
-vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>", opts)
-vim.keymap.set("n", "<leader>x", ":Bdelete!<CR>", opts)
-vim.keymap.set("n", "<leader>b", "<cmd> enew <CR>", opts)
-
 vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>", opts)
 
 -- Navigate between splits
