@@ -58,8 +58,8 @@ return {
         layout_config = {
           vertical = {
             anchor = 'NW', -- North-West (상단 왼쪽)
-            width = 0.9,
-            height = 0.9,
+            width = 0.6,
+            height = 0.99,
             preview_cutoff = 1,
             mirror = false,
             prompt_position = 'top', -- 프롬프트를 상단에 배치
