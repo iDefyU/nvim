@@ -48,6 +48,16 @@ return {
         enable = true,
         update_root = true,
       },
+      diagnostics = {
+        enable = true,
+        show_on_dirs = true,
+        icons = {
+          hint = '',
+          info = '',
+          warning = '',
+          error = '',
+        },
+      },
       view = {
         float = {
           enable = true,
@@ -86,6 +96,21 @@ return {
               enable = vim.g.have_nerd_font,
               color = true,
             },
+          },
+
+          glyphs = {
+            git = {
+              unstaged = '󰄱',
+              staged = '󰄴',
+              unmerged = '󰘫',
+              renamed = '󰁔',
+              untracked = '󰐗',
+              deleted = '󰩧',
+              ignored = '󰦝',
+            },
+          },
+          show = {
+            diagnostics = true,
           },
         },
       },

@@ -55,8 +55,8 @@ require('lazy').setup {
 
   --=== UI 개선 ===--
   require 'plugins.lualine', -- 상태 바 커스터마이징
-  require 'theme.theme-catppuccin', -- 주력 테마 설정
-  require 'plugins.indent', -- 들여쓰기 가이드 라인
+  require 'theme.theme-kanagawa-paper', -- 주력 테마 설정
+  require 'plugins.hlchunk', -- 들여쓰기 가이드 라인
   require 'plugins.noice', -- 고급 알림 시스템
 
   --=== 편의 기능 ===--

@@ -33,7 +33,7 @@ vim.keymap.set('n', '<Right>', ':vertical resize +2<CR>', desc_opts '창 너비 
 -----------------------------------------
 -- 버퍼 관리
 -----------------------------------------
-vim.keymap.set('n', '<leader>x', ':bdelete!<CR>', desc_opts '현재 버퍼 닫기')
+vim.keymap.set('n', '<leader>q', ':bdelete!<CR>', desc_opts '현재 버퍼 닫기')
 vim.keymap.set('n', '<leader>b', '<cmd>enew<CR>', desc_opts '새 버퍼 생성')
 
 -----------------------------------------
@@ -42,7 +42,7 @@ vim.keymap.set('n', '<leader>b', '<cmd>enew<CR>', desc_opts '새 버퍼 생성')
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, desc_opts '이전 진단 메시지')
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, desc_opts '다음 진단 메시지')
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, desc_opts '진단 상세 정보 표시')
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, desc_opts '진단 목록 열기')
+-- vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, desc_opts '진단 목록 열기')
 
 -----------------------------------------
 -- 터미널 모드 설정
