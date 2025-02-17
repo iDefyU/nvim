@@ -20,6 +20,12 @@ return {
       },
       on_attach = function() end,
       messages = function() end,
+
+      settings = {
+        lineLength = 120,
+        indentStyle = 'tab', -- 'space' 또는 'tab'
+        indentWidth = 4,
+      },
     }
   end,
 }

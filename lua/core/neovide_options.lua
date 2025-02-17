@@ -7,11 +7,11 @@ vim.g.neovide_padding_left = 2
 -- Helper function for transparency formatting
 -- vim.g.transparency = 0.1
 -- local alpha = function()
--- return string.format('%x', math.floor(255 * (vim.g.transparency or 0.2)))
+--   return string.format('%x', math.floor(255 * (vim.g.transparency or 0.1)))
 -- end
 -- vim.g.neovide_background_color = '#0f1117' .. alpha()
--- vim.g.neovide_transparency = 0.48
-
+-- vim.g.neovide_transparency = 0.8
+--
 -- vim.g.neovide_window_blurred = true
 
 vim.g.neovide_refresh_rate = 60

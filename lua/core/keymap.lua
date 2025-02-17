@@ -39,10 +39,10 @@ vim.keymap.set('n', '<leader>b', '<cmd>enew<CR>', desc_opts '새 버퍼 생성')
 -----------------------------------------
 -- 진단(Diagnostics) 관련
 -----------------------------------------
-vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, desc_opts '이전 진단 메시지')
-vim.keymap.set('n', ']d', vim.diagnostic.goto_next, desc_opts '다음 진단 메시지')
-vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, desc_opts '진단 상세 정보 표시')
--- vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, desc_opts '진단 목록 열기')
+-- vim.keymap.set('n', 'gp', vim.diagnostic.goto_prev, desc_opts '이전 진단 메시지')
+vim.keymap.set('n', 'ge', vim.diagnostic.goto_next, desc_opts '다음 진단 메시지')
+-- vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, desc_opts '진단 상세 정보 표시')
+-- vim.keymap.set('n', '<leader>Q', vim.diagnostic.setloclist, desc_opts '진단 목록 열기')
 
 -----------------------------------------
 -- 터미널 모드 설정
